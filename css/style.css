@@ -1,0 +1,431 @@
+/*------common css------*/
+* {
+    /*
+    padding: 0;
+    margin: 0;
+*/
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: roboto condensed;
+    font-weight: 700;
+}
+
+/*------common-css-end------*/
+
+/*------navbar-start--------*/
+
+.navbar.navbar-expand-lg.navbar-light {
+    position: absolute;
+
+}
+
+
+.navbar.navbar-expand-lg {}
+
+.navbar-expand-lg {}
+
+.navbar-brand img {
+    width: 110px !important;
+    height: 80px !important;
+}
+
+.navbar .navbar-nav li a {
+    color: white !important;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: darkred !important;
+    transition: .3s linear;
+}
+
+.navbar-toggler {}
+
+
+.collapse.navbar-collapse {}
+
+
+.navbar-nav {}
+
+.nav-item active {}
+
+.nav-item {}
+
+.nav-link {}
+
+
+/*------navbar-end--------*/
+
+/*banner-area-start------*/
+.bannrer_part {}
+
+.theme_bg {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.banner_slider {
+    height: 100vh;
+
+}
+
+.banner_overlay {
+    background: rgba(0, 0, 0);
+    opacity: 40%;
+    height: 100%;
+    position: relative;
+
+
+
+
+
+
+
+}
+
+/*banner-area-end------*/
+
+/*------about-area-start-------*/
+
+
+.about_part {
+    margin-top: 40px;
+    padding-bottom: 60px;
+    margin-right: 60px;
+
+}
+
+
+.heading_title {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+
+.heading_des p {
+    text-align: center;
+    font-family: oswaldbold;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.about_img {
+    margin-top: 40px;
+
+}
+
+.about_img img {
+    width: 100%;
+    height: 350px;
+
+
+
+
+}
+
+/*------about-area-end---------*/
+/*------service-area-start---------*/
+.service_part {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #f1f1f1;
+
+}
+
+.service_main_title {
+    text-align: center;
+    margin-bottom: 60px;
+
+
+
+}
+
+.service_item {
+    padding: 25px 20px 18px 20px;
+    background-color: #dddbdb;
+}
+
+
+.service_img {
+    margin-bottom: -35px;
+}
+
+.service_img i {
+
+    font-size: 35px;
+    margin-left: 60px;
+    width: 15%;
+
+}
+
+
+.service_title h4 {
+
+    font-family: oswald;
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 50px;
+    text-transform: capitalize
+}
+
+
+
+
+
+.service_overlay {
+    background: darkred;
+
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+
+.service_overlay .service_overlay_details {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.service_overlay_details p {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+
+
+.service_overlay .service_icon .img i {
+    margin-top: 17px;
+    margin-bottom: 3px;
+    color: #744fa0;
+    font-size: 50px;
+
+
+
+}
+
+
+.service:hover .service_overlay {
+    opacity: 1;
+    width: 96% !important;
+}
+
+/*------service-area-end---------*/
+
+
+/*-----------watch-video-start-----------*/
+
+
+.watch_video_main_title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+
+.video_overlay {
+    padding: 160px 0;
+}
+
+/*-----------watch-video-end-----------*/
+
+
+/*-----------Team-part-start----------*/
+
+.team_part {
+    margin-top: 80px;
+}
+
+.team_title {
+    margin-bottom: 60px;
+}
+
+.team_img {
+    width: 100%;
+    position: relative;
+}
+
+.team_overlay {
+    width: 0px;
+    padding-bottom: 28px;
+    background-color: rgba(96, 96, 96, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s linear;
+
+}
+
+.team_img:hover .team_overlay {
+    opacity: 1;
+    width: 65px;
+}
+
+
+.team_overlay ul li {
+    margin-top: 10px;
+
+}
+
+.team_overlay ul li a .fab {
+    font-size: 40px;
+    color: #f1f1f1;
+    overflow: hidden;
+
+    transform: translate(-72%, 60%);
+}
+
+.team_overlay ul li a:hover .fab {
+    color: darkgreen;
+
+
+}
+
+.team_text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team_text h6 {
+    font-family: roboto condensed;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.team_text p {
+    font-family: roboto condensed;
+    margin-top: -12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+/*-----------Team-part-end----------*/
+
+/*get in touch part*/
+.get-in-touch {
+    position: relative;
+}
+
+.get-in-touch h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 24px;
+    color: #353535;
+    margin-bottom: 60px;
+}
+
+.get-in-touch .rocket img {
+    position: absolute;
+    top: 117px;
+    left: 513px;
+}
+
+.box input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left: 20px;
+    border: 2px solid #353535;
+    margin-bottom: 30px;
+}
+
+.big-box input {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid #353535;
+    margin-bottom: 30px;
+    padding-left: 20px;
+
+
+}
+
+.box-button button {
+    padding: 10px 20px;
+    background: #744fa0;
+    color: white;
+    position: absolute;
+    left: 48%;
+    margin-bottom: 80px;
+    display: block;
+}
+
+/*get in touch part*/
+
+/*copyright part*/
+.copyright {
+    width: 100%;
+    height: 300px;
+    background: #353535;
+    margin-top: 140px;
+    position: relative;
+}
+
+.copyright-logo {
+    padding: 30px 0;
+}
+
+.copyright-icon a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+.copyright-text p {
+    color: white;
+    padding: 30px 0;
+}
+
+.copyright-text p span {
+    color: #584371;
+}
+
+.copyright-icon a:hover {
+    background: #1da1f2;
+    color: white;
+}
+
+/*copyright part*/
